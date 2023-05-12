@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+@font-face{
+    font-family:'Byekan';
+    src:url('../font/Byekan.ttf') format('truetype'),
+        url('../font/Byekan.woff') format('woff');
+}
+@font-face{
+    font-family:'lalezar';
+    src:url('../font/lalezar.ttf') format('truetype'),
+        url('../font/lalezar.woff') format('woff');
+}
+body{
+    font-family: Byekan;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.list li{
+    display: inline-block;
+    padding: 15px;
+}
+.hedear{
+    height: 600px;
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+.list li:hover{
+    color: orange;
+}
+.titel{
+    font-size: 60px;
+    font-family: lalezar;
+    margin-top: 90px;
+}
+.sp{
+    color: orange;
+}
+.desc{
+    width: 450px;
+    height: 55px;
+    line-height: 55px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-top: 40px;
+}
+
+
+.members{
+    text-align: center;
+}
+.list2{
+    list-style-type: none;
+    text-align: center;
+}
+.list2 li{
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    margin-top: 15px;
+    box-shadow: 0 0 7px #000;
+    
+}
+.pic{
+    width: 100%;
+}
+.ti{
+    margin: 15px;
+}
+.list2 li h3{
+    padding: 10px;
+    font-size: 20px;
+}
+.list2 li p{
+    text-align: justify;
+    padding: 15px;
+}
+
+
+.about{
+    background-image: url(../image/bg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #303030;
+    background-blend-mode: multiply;
+    color: white;
+    padding-top: 50px
+   
+}
+.cir{
+    width: 900px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgba(227, 225, 225,0.2);
+    margin: auto; 
+    
+}
+.titr{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.matn{
+    width: 400px;
+    text-align: justify;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+
+.footer{
+    height: 120px;
+    background-color: lightgray;
+    text-align: center
+}
+.footer2{
+    height: 70px;
+    background-color: gray;
+    margin-top: 35px;
+    
+}
+.pic2{
+    margin-top: 3px;
+}
+.matn2{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
